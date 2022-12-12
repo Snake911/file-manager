@@ -1,6 +1,8 @@
 import * as os from 'os';
 import * as readline from 'readline';
 
+import * as errors from './utils/errors.js';
+
 const username = process.argv.find(arg => arg.startsWith('--username'))?.split('=')[1] || 'Guest';
 let curdir = os.homedir();
 
