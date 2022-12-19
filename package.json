@@ -1,0 +1,12 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "description": "CLI File Manager",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Volkov Danil <snake1234567890-1@yandex.ru> (<snake1234567890-1@yandex.ru>)",
+  "license": "ISC"
+}
